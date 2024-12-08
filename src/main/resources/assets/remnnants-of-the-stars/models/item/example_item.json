@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "remnnants-of-the-stars:item/example_item"
+    }
+}
