@@ -8,8 +8,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-public class RemnnantsOfTheStars implements ModInitializer {
-	public static final String MOD_ID = "remnnants-of-the-stars";
+public class RemnantsOfTheStars implements ModInitializer {
+	public static final String MOD_ID = "remnnantsofthestars";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.

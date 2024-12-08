@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "remnnants-of-the-stars",
+	"id": "remnantsofthestars",
 	"version": "${0.1}",
-	"name": "Remnnants of the Stars",
+	"name": "Remnants of the Stars",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Brendan, Levi"
@@ -12,20 +12,20 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/remnnants-of-the-stars/icon.png",
+	"icon": "assets/remnantsofthestars/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.togl.rots.RemnnantsOfTheStars"
+			"com.togl.rots.RemnantsOfTheStars"
 		],
 		"client": [
-			"com.togl.rots.RemnnantsOfTheStarsClient"
+			"com.togl.rots.RemnantsOfTheStarsClient"
 		]
 	},
 	"mixins": [
-		"remnnants-of-the-stars.mixins.json",
+		"remnantsofthestars.mixins.json",
 		{
-			"config": "remnnants-of-the-stars.client.mixins.json",
+			"config": "remnantsofthestars.client.mixins.json",
 			"environment": "client"
 		}
 	],
