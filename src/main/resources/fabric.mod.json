@@ -1,32 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "template-mod",
-	"version": "${0.1}",
-	"name": "Template Mod",
+	"id": "remnnants-of-the-stars",
+	"version": "${version}",
+	"name": "Remnnants of the Stars",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Brendan"
-		"Levi"
+		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/template-mod/icon.png",
+	"icon": "assets/remnnants-of-the-stars/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"nmae.modid.TemplateMod"
+			"com.lundell.rots.RemnnantsOfTheStars"
 		],
 		"client": [
-			"nmae.modid.TemplateModClient"
+			"com.lundell.rots.RemnnantsOfTheStarsClient"
 		]
 	},
 	"mixins": [
-		"template-mod.mixins.json",
+		"remnnants-of-the-stars.mixins.json",
 		{
-			"config": "template-mod.client.mixins.json",
+			"config": "remnnants-of-the-stars.client.mixins.json",
 			"environment": "client"
 		}
 	],
