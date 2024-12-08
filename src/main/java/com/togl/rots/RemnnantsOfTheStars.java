@@ -1,11 +1,12 @@
 package com.togl.rots;
 
+import com.togl.rots.init.ItemInit;
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.togl.rots.init.item;
 
 public class RemnnantsOfTheStars implements ModInitializer {
 	public static final String MOD_ID = "remnnants-of-the-stars";
