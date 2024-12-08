@@ -1,11 +1,11 @@
-public class rots {
-  
-	public static final Item TEST_ITEM = register(
-		new Item(new Item.Settings()),
-		"test_item"
-  );
-  
-  public static void initialize() {
-  }
-  
+package com.togl.rots.item;
+
+public class rots impliments ModInitializer {
+	public static final logger LOGGER = LoggerFactory.getLogger(name: "Remnants_of_the_Stars");
+	public static final String MOD_ID = "remnantsofthestars";
+	
+	@Override
+	public void onInitialize() {
+		LOGGER.info("Loading...");
+	}
 }
