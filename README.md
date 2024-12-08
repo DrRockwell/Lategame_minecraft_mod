@@ -1,1 +1,2 @@
-# Lategame_minecraft_mod
+# Remnants-of-the-Stars
+This is a mod in current early development.
