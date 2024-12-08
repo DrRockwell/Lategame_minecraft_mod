@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.lundell.rots.mixin",
+	"package": "com.togl.rots.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

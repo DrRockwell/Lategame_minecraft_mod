@@ -1,12 +1,11 @@
 {
 	"schemaVersion": 1,
 	"id": "remnnants-of-the-stars",
-	"version": "${0.1}",
+	"version": "${version}",
 	"name": "Remnnants of the Stars",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Brendan"
-		"Levi"
+		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.lundell.rots.RemnnantsOfTheStars"
+			"com.togl.rots.RemnnantsOfTheStars"
 		],
 		"client": [
-			"com.lundell.rots.RemnnantsOfTheStarsClient"
+			"com.togl.rots.RemnnantsOfTheStarsClient"
 		]
 	},
 	"mixins": [
