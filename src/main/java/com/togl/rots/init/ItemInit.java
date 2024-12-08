@@ -16,13 +16,8 @@ public class ItemInit {
             new Item(new Item.Settings().fireproof()));
 
     public static final Item NETHERITE_FABRIC = register("netherite_fabric",
-            new Item(new Item.Settings().fireproof()));
-    //
-      //       @Override
-     //       public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-    //            tooltip.add(Text.translatable("Test_Lore").formatted(Formatting.GOLD));
-    //        }
-    // I think the above way is how to add lore but I cant figure out if it even goes here
+            new netherite_fabric(new Item.Settings().fireproof()));
+
 
     public static <T extends Item> T register(String name, T item) {
         return Registry.register(Registries.ITEM, RemnantsOfTheStars.id(name), item);
