@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GMG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "tag": "minecraft:gold_nugget"
+    },
+    "M": {
+      "item": "remnantsofthestars:refined_meteor"
+    }
+  },
+  "result": {
+    "id": "remnantsofthestars:star_floret",
+    "count": 4
+  }
+}

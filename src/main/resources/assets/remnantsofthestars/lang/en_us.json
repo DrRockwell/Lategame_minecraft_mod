@@ -2,5 +2,8 @@
     "item.remnantsofthestars.example_item": "Example item",
     "item.remnantsofthestars.meteorite_ore": "Meteorite Ore",
     "item.remnantsofthestars.netherite_fabric": "Fabric of Netherite",
-    "item.remnantsofthestars.meteor_scrap": "Meteor Scrap"
+    "item.remnantsofthestars.meteor_scrap": "Meteor Scrap",
+    "item.remnantsofthestars.meteorite_ingot": "Meteorite Ingot",
+    "item.remnantsofthestars.refined_meteor": "Refined Meteor",
+    "item.remnantsofthestars.star_floret": "Star Flöret"
 }

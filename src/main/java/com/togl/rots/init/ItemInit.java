@@ -21,6 +21,14 @@ public class ItemInit {
     public static final Item METEOR_SCRAP = register("meteor_scrap",
             new Item(new Item.Settings().fireproof()));
 
+    public static final Item METEORITE_INGOT = register("meteorite_ingot",
+            new meteorite_ingot(new Item.Settings().fireproof()));
+
+    public static final Item REFINED_METEOR = register("refined_meteor",
+            new refined_meteor(new Item.Settings().fireproof()));
+
+    public static final Item STAR_FLORET = register("star_floret",
+            new star_floret(new Item.Settings().fireproof()));
 
     public static <T extends Item> T register(String name, T item) {
         return Registry.register(Registries.ITEM, RemnantsOfTheStars.id(name), item);
