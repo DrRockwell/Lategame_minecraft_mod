@@ -17,6 +17,7 @@ public class RemnantsOfTheStars implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Loading...");
 		ItemInit.load();
+		LOGGER.info("Loaded Successfully");
 	}
 
 	public static Identifier id(String path) {
