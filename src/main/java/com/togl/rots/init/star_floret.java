@@ -15,6 +15,7 @@ public class star_floret extends Item{
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("placeholder").formatted(Formatting.GRAY));
+        tooltip.add(Text.translatable("Made from fallen Stars").formatted(Formatting.GRAY));
+        tooltip.add(Text.translatable("They luminate ever slightly").formatted(Formatting.GRAY));
     }
 }
