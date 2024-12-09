@@ -15,6 +15,6 @@ public class netherite_fabric extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("Example Lore").formatted(Formatting.GOLD));
+        tooltip.add(Text.translatable("Extremely Durable Material").formatted(Formatting.GRAY));
     }
 }

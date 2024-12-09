@@ -18,6 +18,9 @@ public class ItemInit {
     public static final Item NETHERITE_FABRIC = register("netherite_fabric",
             new netherite_fabric(new Item.Settings().fireproof()));
 
+    public static final Item METEOR_SCRAP = register("meteor_scrap",
+            new Item(new Item.Settings().fireproof()));
+
 
     public static <T extends Item> T register(String name, T item) {
         return Registry.register(Registries.ITEM, RemnantsOfTheStars.id(name), item);
