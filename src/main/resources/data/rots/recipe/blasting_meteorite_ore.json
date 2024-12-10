@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "remnantsofthestars:meteorite_ore"
+  },
+  "result": {
+    "id": "remnantsofthestars:meteorite_ingot"
+  },
+  "experience": 20,
+  "cookingtime": 400
+}
