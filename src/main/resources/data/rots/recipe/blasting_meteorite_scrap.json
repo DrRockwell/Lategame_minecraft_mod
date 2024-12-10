@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "remnantsofthestars:meteor_scrap"
+  },
+  "result": {
+    "id": "remnantsofthestars:refined_meteor"
+  },
+  "experience": 8,
+  "cookingtime": 400
+}
