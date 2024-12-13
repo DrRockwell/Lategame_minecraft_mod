@@ -1,4 +1,4 @@
-package com.togl.rots.init;
+package com.togl.rots.item;
 
 import com.togl.rots.RemnantsOfTheStars;
 import net.minecraft.item.Item;

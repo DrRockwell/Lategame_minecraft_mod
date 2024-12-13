@@ -1,6 +1,7 @@
 package com.togl.rots;
 
-import com.togl.rots.init.ItemInit;
+import com.togl.rots.item.ItemInit;
+import com.togl.rots.block.BlockInit;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -17,6 +18,7 @@ public class RemnantsOfTheStars implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing...");
 		ItemInit.load();
+		BlockInit.load();
 		LOGGER.info("Initialized Successfully");
 	}
 

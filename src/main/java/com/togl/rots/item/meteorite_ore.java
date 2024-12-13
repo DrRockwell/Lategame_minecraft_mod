@@ -1,4 +1,4 @@
-package com.togl.rots.init;
+package com.togl.rots.item;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -8,13 +8,13 @@ import net.minecraft.util.Formatting;
 
 import java.util.List;
 
-public class netherite_fabric extends Item {
-    public netherite_fabric(Settings settings) {
+public class meteorite_ore extends Item{
+    public meteorite_ore(Item.Settings settings) {
         super(settings);
     }
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("Extremely Durable Material").formatted(Formatting.GRAY));
+        tooltip.add(Text.translatable("placeholder").formatted(Formatting.GRAY));
     }
 }
