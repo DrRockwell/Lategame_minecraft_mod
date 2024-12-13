@@ -8,10 +8,7 @@ import net.minecraft.registry.Registry;
 
 public class BlockInit {
 
-    //public static final Block EXAMPLE_BLOCK = new Block(Block.Settings.create().strength(4.0f));
-
-    public static final Block EXAMPLE_BLOCK = register("example_block",
-            new example_block(new Block.Settings().strength(4.0f)));
+    public static final Block EXAMPLE_BLOCK = new Block(Block.Settings.create().strength(4.0f));
 
     public static <T extends Block> T register(String name, T block) {
         return Registry.register(Registries.BLOCK, RemnantsOfTheStars.id(name), block);
