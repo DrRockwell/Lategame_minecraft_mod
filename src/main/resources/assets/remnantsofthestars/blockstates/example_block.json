@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "remantsofthestars:block/icon"
+      "model": "remantsofthestars:block/example_block"
     }
   }
 }
