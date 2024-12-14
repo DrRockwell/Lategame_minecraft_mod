@@ -13,7 +13,7 @@ import net.minecraft.registry.Registry;
 public class BlockInit {
     public static final Block EXAMPLE_BLOCK = registerWithItems("example_block", new Block(AbstractBlock.Settings.create()
             .strength(1.5F, 6.0F)
-            .requiresTool()),
+            .requiresTool())
             new Item.Settings().fireproof());
 
     public static <T extends Block> T register(String name, T block) {
