@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "remantsofthestars:block/icon"
+    "all": "remnantsofthestars:block/icon"
   }
 }
