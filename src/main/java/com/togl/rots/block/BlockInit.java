@@ -16,7 +16,7 @@ public class BlockInit {
             .requiresTool()),
             new Item.Settings().fireproof());
 
-    public static <T extends Block> T register(String name, T block){
+    public static <T extends Block> T register(String name, T block) {
         return Registry.register(Registries.BLOCK, RemnantsOfTheStars.id(name), block);
     }
 
