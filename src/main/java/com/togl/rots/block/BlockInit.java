@@ -13,7 +13,7 @@ import net.minecraft.registry.Registry;
 public class BlockInit {
     public static final Block EXAMPLE_BLOCK = register("example_block", new Block(AbstractBlock.Settings.create()
             .strength(1.5F, 6.0F)
-            .requiresTool()), new Item.Settings().fireproof());
+            .requiresTool()));
 
     public static <T extends Block> T register(String name, T block){
         return Registry.register(Registries.BLOCK, RemnantsOfTheStars.id(name), block);
