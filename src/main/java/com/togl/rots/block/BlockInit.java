@@ -11,9 +11,10 @@ import net.minecraft.registry.Registry;
 
 
 public class BlockInit {
-    public static final Block EXAMPLE_BLOCK = register("example_block", new Block(AbstractBlock.Settings.create()
+    public static final Block EXAMPLE_BLOCK = registerWithItems("example_block", new Block(AbstractBlock.Settings.create()
             .strength(1.5F, 6.0F)
-            .requiresTool()));
+            .requiresTool()),
+            new Item.Settings().fireproof());
 
     public static <T extends Block> T register(String name, T block){
         return Registry.register(Registries.BLOCK, RemnantsOfTheStars.id(name), block);
@@ -25,7 +26,7 @@ public class BlockInit {
         return registered;
     }
 
-    public static <T extends Block> T registerWithItems(String name, T block){
+    public static <T extends Block> T registerWithItems(String name, T block) {
         return registerWithItems(name, block, new Item.Settings());
     }
 
