@@ -2,20 +2,18 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "remnantsofthestars:example_block"
         }
       ],
-      "rolls": 1
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
     }
-  ],
-  "random_sequence": "remnantsofthestars:example_block"
+  ]
 }
