@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "remantsofthestars:block/example_block"
+    }
+  }
+}
