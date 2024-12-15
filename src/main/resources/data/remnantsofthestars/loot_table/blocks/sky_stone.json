@@ -5,6 +5,9 @@
       "rolls": 1,
       "conditions": [
         {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
           "condition": "minecraft:match_tool",
           "predicate": {
             "predicate": {
