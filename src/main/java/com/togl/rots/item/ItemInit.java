@@ -1,7 +1,6 @@
 package com.togl.rots.item;
 
 import com.togl.rots.RemnantsOfTheStars;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;

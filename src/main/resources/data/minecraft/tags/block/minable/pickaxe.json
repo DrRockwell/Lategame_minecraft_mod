@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "remnantsofthestars:example_block"
+    "remnantsofthestars:example_block",
+    "remnantsofthestars:sky_stone"
   ]
 }
