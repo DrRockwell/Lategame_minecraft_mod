@@ -28,11 +28,6 @@
           "type": "minecraft:item",
           "name": "remnantsofthestars:sky_stone"
         }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
       ]
     }
   ]
