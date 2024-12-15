@@ -21,6 +21,11 @@ public class BlockInit {
             .requiresTool()),
             new Item.Settings().fireproof());
 
+    public static final Block STAR_FORGE = registerWithItems("star_forge", new Block(AbstractBlock.Settings.create()
+            .strength(1.5F,6.0F)
+            .requiresTool()),
+            new Item.Settings().fireproof().maxCount(1));
+
 
 
     public static <T extends Block> T register(String name, T block) {

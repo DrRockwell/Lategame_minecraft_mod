@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "remnantsofthestars:block/example_block_top",
+    "side": "remnantsofthestars:block/example_block_side",
+    "bottom": "remnantsofthestars:block/example_block_bottom"
+  }
+}
